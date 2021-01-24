@@ -27,9 +27,12 @@ forgotten that yet, you are better than that.
 
 # make
 # sudo insmod hello.ko
-
+# dmesg
+[...]
 [  888.099194] Hello, World!
 
 # sudo rmmod hello
+# dmesg
+[...]
 [  897.977944] Goodbye, World!
 
