@@ -24,11 +24,12 @@ forgotten that yet, you are better than that.
 
 
 ---
-
-make
-sudo insmod hello.ko
+```
+# make
+# sudo insmod hello.ko
 
 [  888.099194] Hello, World!
 
-sudo rmmod hello
+# sudo rmmod hello
 [  897.977944] Goodbye, World!
+```
