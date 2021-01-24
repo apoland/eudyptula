@@ -24,7 +24,7 @@ forgotten that yet, you are better than that.
 
 
 ---
-```
+
 # make
 # sudo insmod hello.ko
 
@@ -32,4 +32,4 @@ forgotten that yet, you are better than that.
 
 # sudo rmmod hello
 [  897.977944] Goodbye, World!
-```
+
