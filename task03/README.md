@@ -1,5 +1,21 @@
 # Task 3
 
+Patch:
+```
+diff --git a/Makefile b/Makefile
+index 9d765ebcccf1..dc3ef22520d3 100644
+--- a/Makefile
++++ b/Makefile
+@@ -2,7 +2,7 @@
+ VERSION = 6
+ PATCHLEVEL = 4
+ SUBLEVEL = 0
+-EXTRAVERSION = -rc1
++EXTRAVERSION = -eudyptula
+ NAME = Hurr durr I'ma ninja sloth
+
+ # *DOCUMENTATION*
+ ```
 
 
 ```
