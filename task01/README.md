@@ -37,3 +37,4 @@ My solution (with help from https://blog.sourcerer.io/writing-a-simple-linux-ker
 [...]
 [  897.977944] Goodbye, World!
 
+
