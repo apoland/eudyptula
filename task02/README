@@ -1,9 +1,9 @@
-Proof of booting here:
+Proof of booting here (yeah, I started this in 2014):
 https://youtu.be/kQEy4O9UnoA
 
 Linus's tree is at https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
 
-Directions for building a custom kernel:
+Used these directions for building a custom kernel:
 https://docs.rockylinux.org/guides/custom-linux-kernel/
 
 ---
