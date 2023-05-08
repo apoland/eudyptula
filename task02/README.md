@@ -1,13 +1,15 @@
-Proof of booting here (yeah, I started this in 2014):
+# Task 2 (2014)
+
+Proof of boot:
 https://youtu.be/kQEy4O9UnoA
 
 Linus's tree is at https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
 
-Used these directions for building a custom kernel:
+Directions for building a custom kernel:
 https://docs.rockylinux.org/guides/custom-linux-kernel/
 
----
 
+```
 This is Task 02 of the Eudyptula Challenge
 ------------------------------------------
 
@@ -50,4 +52,6 @@ to.
 If you forgot, your id is "".  But why do I repeat myself?
 Of course you know your id, you made it through the first task just fine
 with it.
+
+```
 
