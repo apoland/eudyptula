@@ -1,6 +1,5 @@
-This is Task 01 of the Eudyptula Challenge
-------------------------------------------
-
+### This is Task 01 of the Eudyptula Challenge
+```
 Write a Linux kernel module, and stand-alone Makefile, that when loaded
 prints to the kernel debug log level, "Hello World!"  Be sure to make
 the module be able to be unloaded as well.
@@ -21,11 +20,13 @@ fine.
 
 If you forgot, your id is "".  But of course you have not
 forgotten that yet, you are better than that.
+```
 
 
----
-My solution (with help from https://blog.sourcerer.io/writing-a-simple-linux-kernel-module-d9dc3762c234)
+### My solution 
+(with help from https://blog.sourcerer.io/writing-a-simple-linux-kernel-module-d9dc3762c234)
 
+```
 # make
 # sudo insmod hello.ko
 # dmesg
@@ -36,5 +37,7 @@ My solution (with help from https://blog.sourcerer.io/writing-a-simple-linux-ker
 # dmesg
 [...]
 [  897.977944] Goodbye, World!
+```
 
+<img width="1117" alt="image" src="https://user-images.githubusercontent.com/3091714/236864490-21f059ae-751d-45d6-8057-5b79218f30be.png">
 
