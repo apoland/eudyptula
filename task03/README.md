@@ -1,6 +1,19 @@
-# Task 3
+# Task 3 (2023)
 
-Patch:
+### Build and boot custom kernel:
+```
+make -j 4
+sudo make modules_install
+sudo cp arch/arm64/boot/Image.gz /boot/vmlinuz-6.4.0-eudyptula\+
+sudo cp System.map /boot/System.map-6.4.0-eudyptula\+
+sudo kernel-install add 6.4.0-eudyptula\+ /boot/vmlinuz-6.4.0-eudyptula+
+sudo reboot
+```
+
+<img width="1282" alt="image" src="https://user-images.githubusercontent.com/3091714/236885373-067400be-4dda-45ac-8705-297fff99be91.png">
+
+
+### Patch:
 ```
 diff --git a/Makefile b/Makefile
 index 9d765ebcccf1..dc3ef22520d3 100644
